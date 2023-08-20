@@ -8,6 +8,8 @@
 </h2>
 
 # Random Small Projects
+ With HTML, CSS, Javascript
+
  - [001-navbar](/../../../../jeffersonfed/Projects/tree/main/001-navbar)
  - [002-sidebar-pikachu version](/../../../../jeffersonfed/Projects/tree/main/002-sidebar-pika)
  - [003-Loading](/../../../../jeffersonfed/Projects/tree/main/003-Loading)
