@@ -1,4 +1,4 @@
-MIT License
+/* MIT License
 
 Copyright (c) 2023 Ritch Johan Jefferson
 
@@ -19,3 +19,58 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+ */
+  
+  body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+  }
+
+  h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+  }
+  
+  /* nav */
+  nav ul{
+      display:flex;
+      justify-content: space-evenly;
+      padding: 0;
+      
+  }
+  a{
+      text-decoration: none;
+      color: blue;
+  }
+
+  nav li{
+      list-style-type: none;
+  }
+  
+  .wrap{
+      font-size: 20px;
+      margin-left: 7em;
+      margin-right: 7em;
+  
+  }
+  p{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  
+ /* social media icon */
+ .fa-twitter, .fa-globe, .fa-github {
+  color: #ffff;
+  padding: 10px;
+  font-size: 40px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}

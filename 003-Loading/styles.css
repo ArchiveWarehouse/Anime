@@ -1,0 +1,160 @@
+/* MIT License
+
+Copyright (c) 2023 Ritch Johan Jefferson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+ */
+body {
+    overflow: hidden
+}
+    
+.loading {
+    background-color: #FFF;
+    width: 100%;
+    display: fixed;
+}
+
+.loading img {
+    display: block;
+    min-height: 209px;
+    min-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 8em;
+    
+}
+.spinner {
+   width: 32px;
+   height: 32px;
+   animation: spinnerani 2.8s infinite ease;
+   transform-style: preserve-3d;
+   margin-left: 47.5%;
+}
+
+.spinner > div {
+   background-color: rgba(245,255,0,0.2);
+   height: 100%;
+   position: absolute;
+   width: 100%;
+   border: 1.6px solid #ced412;
+}
+
+.spinner div:nth-of-type(1) {
+   transform: translateZ(-16px) rotateY(180deg);
+}
+
+.spinner div:nth-of-type(2) {
+   transform: rotateY(-270deg) translateX(50%);
+   transform-origin: top right;
+}
+
+.spinner div:nth-of-type(3) {
+   transform: rotateY(270deg) translateX(-50%);
+   transform-origin: center left;
+}
+
+.spinner div:nth-of-type(4) {
+   transform: rotateX(90deg) translateY(-50%);
+   transform-origin: top center;
+}
+
+.spinner div:nth-of-type(5) {
+   transform: rotateX(-90deg) translateY(50%);
+   transform-origin: bottom center;
+}
+
+.spinner div:nth-of-type(6) {
+   transform: translateZ(16px);
+}
+
+@keyframes spinnerani {
+   0% {
+      transform: rotate(45deg) rotateX(-25deg) rotateY(25deg);
+   }
+
+   50% {
+      transform: rotate(45deg) rotateX(-385deg) rotateY(25deg);
+   }
+
+   100% {
+      transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
+   }
+}
+
+#loading{
+    /* margin-left: 43.5%; */
+    margin-right: 2.5%;
+    margin-top: 2%;
+    color: #424403;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btn{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 100%;
+    text-align: center;
+    line-height: 44px;
+  }
+  .escape{
+    position: absolute;
+    bottom: 23%;
+    margin-left: 47.3%;
+  }
+  .material-symbols-outlined{
+    color: rgb(255, 255, 255);
+  }
+
+  /* social media icon */
+.fa-twitter, .fa-globe, .fa-github {
+   color: white;
+   padding: 10px;
+   font-size: 40px;
+   width: 20px;
+   text-align: center;
+   text-decoration: none;
+   border-radius: 50%;
+}
+#circle1{
+   background: #1DA1F2;
+}
+#circle2, #circle3{
+   background:#000000;
+}
+
+@media screen and (max-width: 700px) {
+   .social .fa{
+      display: none;
+   }
+}
+@media screen and (max-width: 800px) {
+   .social .fa{
+      display: none;
+   }
+}
+@media screen and (max-width: 900px) {
+   .social .fa{
+      display: none;
+   }
+}
