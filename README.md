@@ -8,10 +8,10 @@
 </h2>
 
 # Random Small Projects
- - [001-navbar](/../../../../jeffersonfed/)
- - [002-sidebar-pikachu version]()
- - [003-Loading]()
- - [004-parallax]()
+ - [001-navbar](/../../../../jeffersonfed/Projects/tree/main/001-navbar)
+ - [002-sidebar-pikachu version](/../../../../jeffersonfed/Projects/tree/main/002-sidebar-pika)
+ - [003-Loading](/../../../../jeffersonfed/Projects/tree/main/003-Loading)
+ - [004-parallax](/../../../../jeffersonfed/Projects/tree/main/004-parallax)
 
 
 ### License
