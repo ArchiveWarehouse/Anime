@@ -5,17 +5,10 @@
 
 </h2>
 
-# Random Small Projects
-
- - [001-navbar](/../../../../jeffersonfed/Projects/tree/main/001-navbar)
- - [002-sidebar-pikachu version](/../../../../jeffersonfed/Projects/tree/main/002-sidebar-pika)
- - [003-Loading](/../../../../jeffersonfed/Projects/tree/main/003-Loading)
- - [004-parallax](/../../../../jeffersonfed/Projects/tree/main/004-parallax)
-
 Project showcase page in development
 > https://jeffersonfed.github.io/Projects/
 
 ### License
 
-
+[Creative Commons Zero v1.0 Universal](LICENSE)
 
