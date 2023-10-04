@@ -117,3 +117,18 @@ footer p a:hover
     font-size: 1.2em;
     transform: rotateX(10px);
 }
+
+footer p .footer-link{
+    color: #dfe6e9;
+    background-color: #212121;
+    border-radius: 15px 50px;
+    border: 5px solid #212121;
+}
+
+footer p .footer-link:hover
+{
+    background-color: #dfe6e9;
+    color: #13c4a5;
+    border-radius: 15px 50px;
+    border: 5px solid #dfe6e9;
+}
