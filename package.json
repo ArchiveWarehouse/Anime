@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "CC0-1.0-Universal",
+  "license": "CC0-1.0",
   "devDependencies": {
     "gh-pages": "^6.0.0"
   }

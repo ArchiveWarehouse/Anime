@@ -1,0 +1,119 @@
+
+/* timezone */
+.country .date {
+    font-size: 18px;
+    text-align: center;
+    color: #212121;
+}
+.country .time {
+    font-size: 20px;
+    color: #212121;
+    display: flex;
+    float: left;
+}
+.time-detail{
+    display: flex;
+    font-size: 20px;
+
+    float: right;
+    color: #212121;
+}
+/* footer */
+footer
+{
+    position: relative;
+    width: 100%;
+    background: #dfe6e9;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer h2
+{
+    margin-bottom: 12px;
+    color: #fff;
+    font-size: 2em;
+}
+
+#media {
+    position: relative;
+    display: flex;
+    gap: 50px;
+}
+#media li
+{
+    position: relative;
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+
+
+}
+#media  li a
+{
+    position: relative;
+    text-decoration: none;
+    color: var(--clr);
+    z-index: 10;
+    font-size: 2em;
+    transition: 0.5s ease-in-out;
+
+}
+#media  li:hover
+{
+    z-index: 100000;
+    transform: scale(0.75);
+    transform: translateY(-10px);
+}
+#media  li::before
+{
+    content: '';
+    position: absolute;
+    inset: 30px;
+    box-shadow: 0 0 0 10px var(--clr),
+    0 0 0 20px var(--bg),
+    0 0 0 22px var(--clr);
+    transition: 0.5s;
+}
+#media  li:hover::before
+{
+  inset: 0px;
+}
+#media  li::after
+{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:var(--bg);
+    transform: rotate(45deg);
+}
+
+footer p
+{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.1em;
+}
+footer p a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    transition: 0.5s ease-in-out;
+}
+footer p a:hover
+{
+    text-decoration: underline;
+    color: rgb(5, 1, 1);
+    font-size: 1.2em;
+    transform: rotateX(10px);
+}
