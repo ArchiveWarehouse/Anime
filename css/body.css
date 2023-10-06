@@ -32,8 +32,8 @@
 .project li a:hover{
     color: #13c4a5;
     background-color: #212121;
-    border-radius: 15px 50px;
-    border: 5px solid #212121;
+    border-radius: 10px;
+    /* border: 5px solid #212121; */
 }
 
 
@@ -127,6 +127,30 @@ section .title2::after{
     padding: 0 5px;
     background: #dfe6e9;
     transform: translateX(-50%);
+}
+
+/* project new ver */
+.new-ver li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 2px 30px 30px 30px;
+
+}
+
+.new-ver li a{
+    display: block;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #212121;
+    
+}
+
+.new-ver li a:hover{
+    color: #13c4a5;
+    background-color: #212121;
+    border-radius: 15px 50px;
+    border: 5px solid #212121;
 }
 
 
