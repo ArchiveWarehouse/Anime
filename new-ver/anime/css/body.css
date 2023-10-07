@@ -67,7 +67,7 @@ html{
 }
 
 /* upcoming section */
-.upcoming-list, .upcoming-list2, .upcoming-list3{
+.upcoming-list, .upcoming-list2, .upcoming-list3, .currently-watching{
     margin-top: 20px;
     font-size: larger;
 
@@ -79,7 +79,7 @@ html{
     font-size: larger;
     
 }
-.upcoming-list .upcoming-content li, .upcoming-list2 .upcoming-content li, .upcoming-list3 .upcoming-content li {
+.upcoming-list .upcoming-content li, .upcoming-list2 .upcoming-content li, .upcoming-list3 .upcoming-content li, .currently-watching .upcoming-content li {
     list-style-type: square;
 
 }
@@ -199,6 +199,57 @@ html{
     padding: 0 5px;
     background: #dfe6e9;
     transform: translateX(-50%);
+}
+/* currently-watching */
+.currently-watching span::before{
+    background: #212121;
+}
+.currently-watching span::after{
+    content: "Watching";
+    background-color: #dfe6e9;    
+    color: #212121;
+}
+
+.currently-watching span{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.currently-watching span::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+.currently-watching span::after{
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: #1E3E64;
+    padding: 0 5px;
+    background: #dfe6e9;
+    transform: translateX(-50%);
+}
+
+/* currently watching content */
+tr ,th , td{
+    text-align: center;
+    border: 1px solid black;
+
+    /* justify-content: center; */
+}
+
+.anime-title{
+    text-align: left;
 }
 
 @media screen and (max-width:1178px) {
