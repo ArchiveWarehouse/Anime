@@ -10,6 +10,12 @@ html{
     scroll-behavior: smooth;
 }
 
+#navbar{
+    position: fixed; 
+    display: flex; 
+    float: left;
+}
+
 .title{
 	font-size: 11px;
 }
@@ -61,7 +67,7 @@ html{
 }
 
 /* upcoming section */
-.upcoming-list, .upcoming-list2{
+.upcoming-list, .upcoming-list2, .upcoming-list3{
     margin-top: 20px;
     font-size: larger;
 
@@ -73,7 +79,7 @@ html{
     font-size: larger;
     
 }
-.upcoming-list .upcoming-content li, .upcoming-list2 .upcoming-content li {
+.upcoming-list .upcoming-content li, .upcoming-list2 .upcoming-content li, .upcoming-list3 .upcoming-content li {
     list-style-type: square;
 
 }
@@ -153,4 +159,54 @@ html{
     padding: 0 5px;
     background: #dfe6e9;
     transform: translateX(-50%);
+}
+
+/* upcoming Unknown */
+.upcoming-list3 span::before{
+    background: #212121;
+}
+.upcoming-list3 span::after{
+    content: "Unknown";
+    background-color: #dfe6e9;    
+    color: #212121;
+}
+
+.upcoming-list3 span{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.upcoming-list3 span::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+.upcoming-list3 span::after{
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: #1E3E64;
+    padding: 0 5px;
+    background: #dfe6e9;
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width:1178px) {
+    #navbar{
+        /* display: none; */
+        margin: 0 auto;
+        justify-content: center;
+        position: relative;
+
+    }
 }

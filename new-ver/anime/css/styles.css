@@ -1,0 +1,137 @@
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+body {
+   font-family: 'Open Sans', sans-serif;
+   line-height: 1.5;
+   word-wrap: normal;
+   color: #212121;
+   background-color: #dfe6e9;
+}
+
+#navbar {
+    float: left;
+    width: 22%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 2px solid #212121;
+}
+
+#navbar header {
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 2% 0 2% 8%;
+    margin: 8px;
+}
+
+#navbar a {
+    display: block;
+    font-size: 1.1em;
+    color: #13c4a5;
+    text-align: left;
+    text-decoration: none;
+    padding: 2.5% 0 2.5% 10%;
+    margin-left: 10px;
+    border-top: 2px solid #212121;
+}
+
+#navbar a:last-of-type {
+    border-bottom: 2px solid #212121;  
+}
+
+#navbar a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    margin: 5px;
+    box-shadow: 1px 1px 3px 1px #ffffff;
+    border-radius: 0.5em;
+    background-color: #ffffff;
+}
+
+#main-doc {
+    float: right;
+    width: 75%;
+    margin: 0;
+    padding-right: 3%;
+}
+
+.main-section {
+    display: block;
+}
+
+.main-section header {
+    font-size: 1.6em;
+    text-align: left;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+article {
+    font-size: 0.96em;
+    color: #212121;
+    text-align: justify;
+    margin: 10px;
+    /* background-color: #3b3337; */
+    border-radius: 0.5em;
+    /* border: 5px solid #432a25; */
+    box-shadow: 1px 1px 3px 1px #3b3337;
+    border-spacing: 20px;
+}
+
+ul li {
+    margin: 15px 0 0 20px;
+}
+
+code {
+    display: block;
+    text-align: left;
+    line-height: 2;
+    word-break: normal;
+    background-color: #F0E6EB;
+    color: black;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 2%;
+    box-shadow: 1px 1px 3px 0.5px #E0CCD7;
+}
+
+li a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #6D435A;
+}
+
+@media screen and (max-width:1178px) {
+    body {
+        font-size: 1.5vw;
+    }
+    #navbar {
+        width: 30%;
+    }
+    #main-doc {
+        width: 67%;
+    }
+    header {
+        font-size: 1.8vw;
+    }
+    ul li, article {
+        margin: 0;
+        padding: 0;
+    }
+    code{
+        margin: 0.2% 0;
+        padding: 1%;
+    }
+}
