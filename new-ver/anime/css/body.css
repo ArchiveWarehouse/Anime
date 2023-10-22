@@ -161,6 +161,12 @@ html{
     transform: translateX(-50%);
 }
 
+.upcoming-list2 .upcoming-content tr td a img{
+    width: 141.6px;
+    height: 200px;
+    object-fit: cover;
+}
+
 /* upcoming Unknown */
 .upcoming-list3 span::before{
     background: #212121;
