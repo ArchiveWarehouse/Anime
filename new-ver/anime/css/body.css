@@ -259,7 +259,7 @@ tr ,th , td{
         background: #212121;
     }
     .favorite span::after{
-        content: "Anime";
+        content: "List";
         background-color: #dfe6e9;    
         color: #212121;
     }
@@ -292,6 +292,11 @@ tr ,th , td{
         padding: 0 5px;
         background: #dfe6e9;
         transform: translateX(-50%);
+    }
+
+    .favorite table tr td a:hover{
+        text-decoration: none;
+        color: #13c4a5;
     }
 
 /* License */
