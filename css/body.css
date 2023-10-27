@@ -88,6 +88,27 @@ section .title::after{
     transform: translateX(-50%);
 }
 
+/* license */
+.license{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.license{
+    background-color: #dfe6e9;
+    color: #212121;
+}
+.license .title::before{
+    background: #212121;
+}
+.license .title::after{
+    content: "licensed under Creative Commons Zero v1.0 Universal";
+    background-color: #dfe6e9;    
+    color: #212121;
+}
+
 
 /* other version */
 .main .title2::before{
