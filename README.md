@@ -1,7 +1,7 @@
 <h2 align="center">
 
 [![Keybase](https://img.shields.io/badge/Keybase-black?style=flat&logo=keybase&logoColor=orange)](https://keybase.io/jeffersonfed/)
-[![BuyMeACoffee](https://img.shields.io/badge/Support%20Me-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jeffersonfed)
+[![Updated Badge][UpdateBadge]][UpdateLink]
 
 </h2>
 
@@ -12,3 +12,11 @@ Project showcase page in development
 
 [Creative Commons Zero v1.0 Universal](LICENSE)
 
+
+<!-- ============== -->
+<!-- Links -->
+<!-- ============== -->
+
+[UpdateBadge]: https://badges.pufler.dev/updated/jeffersonfed/Projects?&label=Last%20Updated&color=blue&icon=5&pretty=false&style=flat
+
+[UpdateLink]: https://github.com/jeffersonfed/Projects
