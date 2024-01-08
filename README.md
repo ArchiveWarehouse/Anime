@@ -6,7 +6,7 @@
 </h2>
 
 Project showcase page in development
-> https://jeffersonfed.github.io/Projects/
+> https://jeffersonrj14.github.io/Projects/
 
 ### License
 
