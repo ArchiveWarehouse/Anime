@@ -1,108 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal Project">
-    <meta name="keywords" content="HTML, CSS, JavaScript, Personal">
-    <meta name="author" content="Ritch Johan Jefferson">
-    <title>Personal Project @Ritch Johan Jefferson</title>
-    <link rel="icon" type="image/JF-icon" href="assets/jeffersonfed.png">
+    <title>John Emerson | Linktree</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/132354045" type="image/x-icon" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-    <!-- font awesome and google font -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
-    <!-- body -->
-    <link rel="stylesheet" href="css/body.css">
-
-    <!-- footer and time -->
-    <link rel="stylesheet" href="css/footer.css">
-</head>
-<body>
-    <section class="main" id="main">
-    <div id="wrap">
-        <h2 class="title">Projects</h2>
-        <div  style="text-align: center; margin-bottom: 80px;">
-
-        <ul class="project">
-            <li>
-                <a href="old/001-navbar/index.html">Navbar</a>
-            </li>
-            <li>
-                <a href="old/002-sidebar-pika/index.html">Sidebar</a>
-            </li>
-            <li>
-                <a href="old/003-Loading/index.html">Loading</a>
-            </li>
-            <li>
-                <a href="old/004-parallax/index.html">Parallax</a>
-            </li>
-        </ul>
-        </div>
-
-        <h2 class="title">Site Project</h2>
-        <div  style="text-align: center; margin-bottom: 150px;">
-        
-        <ul class="project">
-            <li>
-                <a href="001anime/anime-index.html">Anime</a>
-            </li>
-            <li>
-                <a href="002orb/card-index">Card</a>
-            </li>
-            <li>
-                <a href="">Project 003</a>
-            </li>
-            <li>
-                <a href="">Project 004</a>
-            </li>
-        </ul>
-
-    </div>
-    
-</div>
-</section>
-<section class="license" id="license">
-    <div id="wrap">
-        <h2 class="title">All of This Projects are</h2>
-        <div  style="text-align: center; margin-bottom: 150px;">
-        
-        <ul class="project">
-            <li>
-                <a href="https://github.com/jeffersonfed/Projects/blob/main/LICENSE">LICENSE</a>
-            </li>
-        </ul>
-        </div>
+  <body>
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
     </section>
+    <!-- End of Parallax Pixel Background Animation -->
 
-    <footer id="social">
-        <div id="bk" class="country">
-            
-            <p style="color: #212121;">
-                My Timezone
-                <div class="time"></div>
-                <div class="time-detail">&nbsp;GMT+7</div>
-            </p>
-            <div class="date"></div>
+    <a id="profilePicture" href="#popup">
+      <img src="https://avatars.githubusercontent.com/u/132354045" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+      <div class="popup">
+        <div class="popup-photo">
+          <a href="https://avatars.githubusercontent.com/u/132354045" target="_blank">
+            <img src="https://avatars.githubusercontent.com/u/132354045" alt="Profile Picture">
+          </a>
+        </div>
+        <div class="popup-quote">
+          But... the sensation that I've lost something lingers for a longtime after I wake up.
+        </div>
+        <a class="popup-close" onclick="history.back()">&times;</a>
+      </div>
     </div>
-    <p>
-        <a href="https://open.spotify.com/playlist/6OpjGPXUJ9ZVwPuy955UuL?si=9cd68c68cd3d4646"><img src="https://spotify-github-profile.vercel.app/api/view?uid=215lqconp3eomcjzwaufygfri&amp;cover_image=true&amp;theme=novatorem&amp;show_offline=true&amp;background_color=000000&amp;interchange=false&amp;bar_color=13c4a5&amp;bar_color_cover=false" alt="spotify-github-profile"></a></p>
-    
-         <ul id="media">
-    
-            <li style="--clr:#212121;">
-                <a href="https://github.com/jeffersonfed" target="_blank"><i class="fa-brands fa-github"></i></a>
-            </li>
-    
-            <li style="--clr:#ffffff;">
-                <a href="https://ko-fi.com/jeffersonfed" target="_blank"><img src="001anime/assets/kofi_s_logo_nolabel.png" style="height: 50px; width: 50px;" alt=""></i></a>
-            </li>
-         </ul>
-        
-         <p style="color: #212121;">&copy; 2023 | Made with <i class="fa-solid fa-heart" style="color: red;"></i> by <a href="https://activity.jeffersonfed.xyz" class="footer-link">Ritch Johan Jefferson</a> |  <a href="https://github.com/jeffersonfed/Projects/blob/main/LICENSE">LICENSE</a> </p>
-     </footer> 
-     <script src="js/time.js"></script>
-</body>
+
+    <div id="userName">
+      @jeffersonrj14
+    </div>
+
+    <div id="links">
+      <a class="link" href="https://github.com/jeffersonrj14" target="_blank">
+        <i class="fab fa-github">&nbsp;</i>Github
+      </a>
+      <a class="link" href="https://www.linkedin.com/in/jeffersonrj14" target="_blank">
+        <i class="fab fa-linkedin">&nbsp;</i>Linkedin
+    </a>
+    <a class="link" href="https://twitter.com/jeffersonrj14" target="_blank">
+      <i class="fab fa-twitter">&nbsp;</i>Twitter
+    </a>
+    <div id="projects">
+        Projects
+    </div>
+      <a class="link" href="001projects/001anime/anime-index.html" target="_blank">
+        <i class="fab fa-html5">&nbsp;</i>
+        <i class="fab fa-css3">&nbsp;</i>
+            Anime Projects
+      </a>
+      <a class="link" href="002javascript-projects/index.html" target="_blank">
+        <i class="fab fa-js">&nbsp;</i>JavaScript Project
+      </a>
+    </div>
+
+    <div id="hashtag">
+      #BeHappy❤
+    </div>
+  </body>
 </html>
