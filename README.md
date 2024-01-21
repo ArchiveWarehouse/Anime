@@ -17,6 +17,6 @@ Project showcase page in development
 <!-- Links -->
 <!-- ============== -->
 
-[UpdateBadge]: https://badges.pufler.dev/updated/jeffersonfed/Projects?&label=Last%20Updated&color=blue&icon=5&pretty=false&style=flat
+[UpdateBadge]: https://badges.pufler.dev/updated/jeffersonrj14/Projects?&label=Last%20Updated&color=#13c4a5&icon=5&pretty=false&style=plastic
 
-[UpdateLink]: https://github.com/jeffersonfed/Projects
+[UpdateLink]: https://github.com/jeffersonrj14/Projects
