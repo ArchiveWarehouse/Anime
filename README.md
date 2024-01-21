@@ -1,6 +1,5 @@
 <h2 align="center">
 
-[![Keybase](https://img.shields.io/badge/Keybase-black?style=flat&logo=keybase&logoColor=orange)](https://keybase.io/jeffersonfed/)
 [![Updated Badge][UpdateBadge]][UpdateLink]
 
 </h2>
